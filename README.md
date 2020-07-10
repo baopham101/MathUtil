@@ -11,7 +11,7 @@ This repo contains the source code of a simple java application used to demonstr
 ## Connect via me
 1. [GitHub](https://github.com/baopham101)
 2. [Facebook](http://facebook.com)
-3. [Email](mail: baopham101@gmail.com)
+3. [Email](baopham101@gmail.com)
 
 
 #### © 2020 by baopham | FPT university - HCMC Campus

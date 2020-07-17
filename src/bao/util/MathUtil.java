@@ -17,7 +17,7 @@ public class MathUtil {
     //int chỉ tối đa 2 tỷ 1, nên ta cài long mới an tâm
     //thực ra 15! to lắm, nên ta chỉ tính giai thừa từ 15 trở lại
     public static long computeFactorial(int n) {
-        
+
         long result = 1;
         for (int i = 1; i <= n; i++) {
             result *= i;

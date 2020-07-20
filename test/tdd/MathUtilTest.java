@@ -26,18 +26,18 @@ public class MathUtilTest {
         //
         //2 thứ khớp nhau, mày xử lí như dự kiến, đèn xanh, thông đường
         //                        ko như dự kiến, đèn đỏ, code m toang
-        
-        assertEquals(120,computeFactorial(5));
-        assertEquals(720,computeFactorial(6));
-        assertEquals(1,computeFactorial(0));
-        assertEquals(1,computeFactorial(1));
-        assertEquals(2,computeFactorial(2));
+
+        assertEquals(120, computeFactorial(5));
+        assertEquals(720, computeFactorial(6));
+        assertEquals(1, computeFactorial(0));
+        assertEquals(1, computeFactorial(1));
+        assertEquals(2, computeFactorial(2));
         //muốn xanh, thid tất cả phải xanh, đúng hết cho mọi case
         //nếu tất cả xanh, có 1 thằng đỏ, coi như cả đám đỏ
         //vì hàm ý: code khi cahyj đúng cho mọi tình huống
         //ta chỉ cần nhìn xanh đỏ, khỏi cần đỏ từng cháu = mắt
     }
-    
+
     @Test(expected = IllegalArgumentException.class) //annotation, dấu hiệu báo cho JVM và thư viện .jar
     //liên quan biết cần phải làm gì
     //hàm này chứa các tình huống cà chớn, ví dụ cF(-5), cF(16)
@@ -51,7 +51,7 @@ public class MathUtilTest {
         //ta phải xài chiêu khác khi bắt ngoại lệ coi có đúng là ngoại lệ mình cần ko
         computeFactorial(-5);
     }
-    
+
     //code có thể còn tiềm ẩn lỗi nhưng Clean & Build
     //luôn ra fie .jar nếu code không sai cú pháp
     //vậy thì nguy hiểm quá đi

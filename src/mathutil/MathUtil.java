@@ -30,5 +30,5 @@ public class MathUtil {
         //expected Exception if cF(-5)
         System.out.println("-5! = " + computeFactorial(-5));
     }
-    
+
 }

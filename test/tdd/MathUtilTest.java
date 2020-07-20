@@ -50,6 +50,7 @@ public class MathUtilTest {
         //trong khi đó ném ra ngoại lệ không phải là actual value để ss
         //ta phải xài chiêu khác khi bắt ngoại lệ coi có đúng là ngoại lệ mình cần ko
         computeFactorial(-5);
+        computeFactorial(16); //giai thừa tăng rất nhanh, không chơi quá 15
     }
 
     //code có thể còn tiềm ẩn lỗi nhưng Clean & Build

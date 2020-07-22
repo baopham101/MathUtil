@@ -21,11 +21,13 @@ public class MathUtil {
         if (n < 0 || n > 15) {
             throw new IllegalArgumentException("Invalid input, n must be >= 0");
         }
-        long result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *= i;
+        if (n == 0 || n == 1) {
+            return 1;
         }
-        return result;
+        //Dieu kien dung cua de quy
+        //song sot den lenh cho nay thi n chac chan roi vao 2...15
+        //ko can else
+        return n * computeFactorial(n - 1); //n * (n-1)
     }
 
 }
